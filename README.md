@@ -1,6 +1,6 @@
 # CS7641-Project
 
-[Link to Github Pages.](https://github.gatech.edu/pages/zwang997/CS7641-Project)
+[Link to Github Pages.](https://hyoukjun.github.io/CS7641-Fall2019-team19/)
 ## Introduction
 Home sharing services such as Airbnb have emerged and constructed an alternative market for accommodation business, reaching 79 million booked nights within a year. To deal with the demand toward better search qualities on a very large list of hosts and their listings, Airbnb is actively utilizing machine learning techniques for the quality of search. Airbnb developed a new embedding method for real-time personalization of search results and an advanced ranking system using machine learning.
 
