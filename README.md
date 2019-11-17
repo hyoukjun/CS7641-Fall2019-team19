@@ -1,6 +1,6 @@
 # CS7641-Project
 
-[Link to Github Pages.](https://hyoukjun.github.io/CS7641-Fall2019-team19/)
+[Link to Github Pages.](https://github.gatech.edu/pages/zwang997/CS7641-Project)
 ## Introduction
 Home sharing services such as Airbnb have emerged and constructed an alternative market for accommodation business, reaching 79 million booked nights within a year. To deal with the demand toward better search qualities on a very large list of hosts and their listings, Airbnb is actively utilizing machine learning techniques for the quality of search. Airbnb developed a new embedding method for real-time personalization of search results and an advanced ranking system using machine learning.
 
@@ -18,7 +18,7 @@ At the same time, the prospect for further study extends even beyond the origina
 
 The price in the dataset has a high variance, 56797.66437, and the value ranges from $10 to $10,000 with the average of $154.5136. The high variance in dataset is one of the major challenges to constrcut a machine learning models for the dataset.
 
-We plot a Pearson correation matrix below based on our dataset to show the correlation of each feature with the price. We observe that the neighborhood information (last 10 features) we augmented to the dataset has high correlation with the price. 
+We plot a Pearson correation matrix below based on our dataset to show the correlation of each feature with the price. We observe that the neighborhood information (last 10 features) we augmented to the dataset is highly correlated each other. We also observe that the location is not tightly related to the price. However, the room type, median rent, and median home price of the Airbnb location are closely related to the price.
 
 <img src="supervised/correlation.png" height="800x"/>
 
