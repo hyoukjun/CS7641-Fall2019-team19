@@ -30,7 +30,7 @@ First, let us have a look into the Airbnb dataset by clustering the data based o
 
 To choose the appropriate number of clusters, we measure and plot the Bayesian information criteria of different k in the Gaussian Mixture Model, and choose the k to be at the elbow points.
 
-<img src="unsupervised/price_bic.png" height="200x"/>
+<img src="unsupervised/price_bic.png" height="300x"/>
 
 We choose the number of clusters to be 4, and calculated the cluster centers and cluster weights in the GMM model.
 
@@ -63,7 +63,7 @@ Roughly half of the listings are apartments and the other half private rooms. Sh
 
 The relationship between Bayersian information critria and number of clusters is shown below.
 
-<img src="unsupervised/review_bic.png" height="200x"/>
+<img src="unsupervised/review_bic.png" height="300x"/>
 
 We choose the number of clusters to be also 4, and calculated the cluster centers and cluster weights in the GMM model.
 
@@ -82,7 +82,7 @@ There is a large variance in the number of reviews in all listings. A quarter of
 
 The relationship between Bayersian information critria and number of clusters is shown below.
 
-<img src="unsupervised/avail_bic.png" height="200x"/>
+<img src="unsupervised/avail_bic.png" height="300x"/>
 
 We choose the number of clusters to 2, and calculated the cluster centers and cluster weights in the GMM model.
 
