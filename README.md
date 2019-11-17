@@ -1,6 +1,6 @@
 # CS7641-Project
 
-[Link to Github Pages.](https://github.gatech.edu/pages/zwang997/CS7641-Project)
+[Link to Github Pages.](https://hyoukjun.github.io/CS7641-Fall2019-team19/)
 ## Introduction
 Home sharing services such as Airbnb have emerged and constructed an alternative market for accommodation business, reaching 79 million booked nights within a year. To deal with the demand toward better search qualities on a very large list of hosts and their listings, Airbnb is actively utilizing machine learning techniques for the quality of search. Airbnb developed a new embedding method for real-time personalization of search results and an advanced ranking system using machine learning.
 
@@ -111,7 +111,7 @@ We first explore three regerssion methods (linear, ridge, and lasso) to predict 
 
 #### The Impact of Hyper Parameter Selection
 
-<img src="supervised/ridge.png" height="300x"/> <img src="supervised/lasso.png" height="300x"/>
+<img src="supervised/ridge.png" height="350x"/> <img src="supervised/lasso.png" height="350x"/>
 
 We iterate over seven values for each hyperparameter: lambda for ridge regeression and alpha for lasso regression. For lambda value, we test 0, 0.1, 1, 5, 10, 100, and 1000. For alpha value, we test 0.0001, 0.001, 0.01, 0.1, 1, 5, and 10.
 The resulting MSRE values are plotted in the above figures. After iterations, we select the best hyperparameters based on the results.
