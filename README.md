@@ -111,7 +111,7 @@ We first explore three regerssion methods (linear, ridge, and lasso) to predict 
 
 #### The Impact of Hyper Parameter Selection
 
-<img src="supervised/ridge.png" height="400x"/> <img src="supervised/lasso.png" height="400x"/>
+<img src="supervised/ridge.png" height="350x"/> <img src="supervised/lasso.png" height="350x"/>
 
 We iterate over seven values for each hyperparameter: lambda for ridge regeression and alpha for lasso regression. For lambda value, we test 0, 0.1, 1, 5, 10, 100, and 1000. For alpha value, we test 0.0001, 0.001, 0.01, 0.1, 1, 5, and 10.
 The resulting MSRE values are plotted in the above figures. After iterations, we select the best hyperparameters based on the results.
